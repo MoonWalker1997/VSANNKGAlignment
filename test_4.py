@@ -55,7 +55,7 @@ if __name__ == "__main__":
     r_proportion = 0.2
     g_k_proportion = 0.2
 
-    for _ in range(1):
+    for _ in range(5):
         c, s, bl = [], [], []
         for l_num_proportion in l_num_proportions:  # test on the fifth aspect
             tc = []
