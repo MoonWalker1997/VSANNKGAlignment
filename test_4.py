@@ -1,3 +1,5 @@
+import os
+
 import numpy as np
 import torch
 from matplotlib import pyplot as plt
@@ -27,8 +29,6 @@ g_k_proportions = np.array(list(range(10, 41, 5))) / 100
 g_k_biases = np.array(list(range(0, 101, 10))) / 100
 l_num_proportions = np.array(list(range(5, 16, 1))) / 10
 
-test_code = 4
-
 
 def generate_pdf(alpha, ret_dim):
     # make sure alpha is in [0, 1]
@@ -55,7 +55,7 @@ if __name__ == "__main__":
     r_proportion = 0.2
     g_k_proportion = 0.2
 
-    for _ in range(5):
+    for _ in range(1):
         c, s, bl = [], [], []
         for l_num_proportion in l_num_proportions:  # test on the fifth aspect
             tc = []
@@ -131,17 +131,20 @@ if __name__ == "__main__":
         similarity.append(s)
         boolean_loss.append(bl)
 
-    print(consistency)
-    print(similarity)
-    print(boolean_loss)
+    # print(consistency)
+    # print(similarity)
+    # print(boolean_loss)
 
     consistency = np.array(consistency)
     similarity = np.array(similarity)
     boolean_loss = np.array(boolean_loss)
 
+    if not os.path.exists("./Saves"):
+        os.mkdir("./Saves")
+
     np.save("./Saves/test_4_consistency.npy", consistency)
-    np.save(".Saves/test_4_similarity.npy", similarity)
-    np.save(".Saves/test_4_boolean_loss.npy", boolean_loss)
+    np.save("./Saves/test_4_similarity.npy", similarity)
+    np.save("./Saves/test_4_boolean_loss.npy", boolean_loss)
 
     plt.figure()
     plt.grid()
