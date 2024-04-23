@@ -147,8 +147,8 @@ if __name__ == "__main__":
     if not os.path.exists("./Saves"):
         os.mkdir("./Saves")
 
-    np.save("./Saves/test_data/test_0_consistency.npy", consistency)
-    np.save("./Saves/test_data/test_0_similarity.npy", similarity)
+    np.save("./Saves/test_0_consistency.npy", consistency)
+    np.save("./Saves/test_0_similarity.npy", similarity)
     np.save("./Saves/test_0_boolean_loss.npy", boolean_loss)
 
     plt.figure()
