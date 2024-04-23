@@ -54,7 +54,7 @@ if __name__ == "__main__":
     g_k_proportion = 0.2
     g_k_bias = 0.5
 
-    for _ in range(1):
+    for _ in range(5):
         c, s, bl = [], [], []
         for r_proportion in r_proportions:  # test on the second aspect
             tc = []
