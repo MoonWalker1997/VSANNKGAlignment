@@ -54,7 +54,7 @@ if __name__ == "__main__":
     g_k_proportion = 0.2
     g_k_bias = 0.5
 
-    for _ in range(1):  # run 5 times for each experiment and take the average
+    for _ in range(5):  # run 5 times for each experiment and take the average
         c, s, bl = [], [], []
         for num_g_entities in g_num_e:  # test on the first aspect
             tc = []
