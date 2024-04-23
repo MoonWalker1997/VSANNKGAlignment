@@ -20,7 +20,7 @@ $ python test_2.py
 $ python test_3.py
 $ python test_4.py
 ```
-Each corresponds to one aspect testing mentioned in the paper. It might take a while (hours or half of a day). Everything is trained on `CPU` by default (since I am working on Apple M2 chip), you need to change the source to run it on GPUs. If you are not satisfied with the speed, please consider changing two parameters: **1)** the training batch size (`128` by default, in `Data.py`); **2)** the number of times each experiment is repeated (`5` by default, you can change it in *each file* at `line 57`).
+Each corresponds to one aspect testing mentioned in the paper. It might take a while (**hours or half of a day**). Everything is trained on `CPU` by default (since I am working on Apple M2 chip), you need to change the source to run it on GPUs. If you are not satisfied with the speed, please consider changing two parameters: **1)** the training batch size (`128` by default, in `Data.py`); **2)** the number of times each experiment is repeated (`5` by default, you can change it in *each file* at `line 57`).
 
 # Sample outputs
 
