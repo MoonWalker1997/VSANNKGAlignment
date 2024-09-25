@@ -44,12 +44,6 @@ The following is the 8 sub-experiments in experiment 2. In which \# $E$ represen
 
 The following is the 19 sub-experiments in experiment 3. In which $O$ represents the index of ontology used Text2KGBench, $CT$ represents the matching consistency, $S$ represents the average similarities of vectors in $VSA_{NN}$, $BLoss$ represents the bipolar loss of vectors in $VSA_{NN}$, \# $E$ represents the number of entities in the ontology, \# $R$ represents the number of relations in the ontology.
 
-<img width="472" alt="image" src="https://github.com/user-attachments/assets/949e8d14-df8a-40a8-b8b5-8b4f78819bb7">
-
-
-
-
-
-
-
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/949e8d14-df8a-40a8-b8b5-8b4f78819bb7" height="50%" width="50%" />
+</p>
