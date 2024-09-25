@@ -21,10 +21,6 @@ def knowledge_loss(vec_1, vec_2, space_1, space_2):
     # loss_R = F.mse_loss(R_1, R_2)
     # loss_T = F.mse_loss(T_1, T_2)
 
-    # loss_H = F.cosine_embedding_loss(H_1, H_2, torch.ones(H_1.shape[0]))  # use cosine similarity loss
-    # loss_R = F.cosine_embedding_loss(R_1, R_2, torch.ones(R_1.shape[0]))
-    # loss_T = F.cosine_embedding_loss(T_1, T_2, torch.ones(T_1.shape[0]))
-
     return loss_H + loss_R + loss_T
 
 
