@@ -37,7 +37,7 @@ The left image is the average $KGV_{NN}$ (with values $\geq$ 0.5) for all number
 The following is the 8 sub-experiments in experiment 2. In which \# $E$ represents the number of entities in $KG_G$, \# $T$ represents the number of triples in $KG_G$, $p$ represents the proportion of items in $KG_{NN}$ to $KG_G$, $C$ represents the alignment consistency
 
 <p align="center">
-  <img src="[图片链接](https://github.com/user-attachments/assets/817d67da-456e-457a-980d-b7b59d70f416)" height="50%" width="50%" />
+  <img src="https://github.com/user-attachments/assets/817d67da-456e-457a-980d-b7b59d70f416" height="50%" width="50%" />
 </p>
 
 ## Experiment 3
