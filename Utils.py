@@ -28,7 +28,7 @@ def get_given_structure_mat(given_knowledge, given_e, given_r):
     return mat
 
 
-def VSA_fitting_report(learnable_space, given_space, c, s, bl):
+def VSA_fitting_report(learnable_space, given_space, c, s, bl, p=True):
     """
     Check 1) whether the fitting of VSA_NN and VSA_G is good, and 2) check some properties of VSA_NN.
     :param learnable_space: VSA_NN.
@@ -36,6 +36,7 @@ def VSA_fitting_report(learnable_space, given_space, c, s, bl):
     :param c: for storing the consistency.
     :param s: for storing the similarity.
     :param bl: for storing the Boolean loss.
+    :param p: whether print the evaluations
     """
     batch_cos_similarity = cosine_similarity(learnable_space.codes_er, given_space.codes_er).detach()
     batch_cost = -batch_cos_similarity
@@ -43,19 +44,22 @@ def VSA_fitting_report(learnable_space, given_space, c, s, bl):
     # consistency, the higher, the better
     tc = batch_cos_similarity[batch_row, batch_col].mean().item()
     c.append(tc)
-    print("Avg consistency:", tc)
+    if p:
+        print("Avg consistency:", tc)
 
     # independence, the lower, the better
     batch_cos_similarity = cosine_similarity(learnable_space.codes_er, learnable_space.codes_er).detach()
     batch_cos_similarity -= torch.diag_embed(batch_cos_similarity.diag())
     ts = abs(batch_cos_similarity.sum()) / (batch_cos_similarity.shape[0] ** 2)
     s.append(ts.item())
-    print("Avg similarity:", ts.item())
+    if p:
+        print("Avg similarity:", ts.item())
 
     # Boolean loss, the lower, the better.
     tbl = torch.min((learnable_space.codes_er + 1) ** 2, (learnable_space.codes_er - 1) ** 2).mean()
     bl.append(tbl.item())
-    print("Avg Boolean loss:", tbl.item())
+    if p:
+        print("Avg Boolean loss:", tbl.item())
 
 
 def get_mapping(learnable_space, given_space, threshold=-1):

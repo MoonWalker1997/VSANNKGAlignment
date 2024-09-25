@@ -10,7 +10,7 @@ from VSASpace import VSASpace, matrix_to_vector
 
 VSA_dim = 10000
 lr = 0.001
-epoch_VSA = 1
+epoch_VSA = 10
 check_train = True
 task_output_size = 10
 
