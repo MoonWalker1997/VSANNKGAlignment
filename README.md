@@ -13,10 +13,12 @@ To run Experiment 1.
 To make it act fast, I set the number of epoch to `10`. If you want to have more epochs, please change it in the file (at `line 13`). The training batch size is set to `128` by default, which can be also changed in `Data.py` (though not recommended).
 
 For Experimen 2. There are 8 options in a file.
-```
-$ python Experiment2.py
-```
+```$ python Experiment2.py```
 To change the setting, you need to edit the file from `line 17` to `line 24` by only uncommenting 1 row of them. Everything is trained on `CPU` by default (since I am working on Apple M2 chip). If you are not satisfied with the speed, please consider changing two parameters: **1)** the training batch size (`128` by default, in `Data.py`), though this not recommended; **2)** the number of times each experiment is repeated (`5` by default, you can change it in the file at `line 34`).
+
+For Experimen 3. There are 19 options in a file.
+```$ python Experiment3.py```
+To change the setting, you need to edit the file from `line 14` to `line 32` by only uncommenting 1 row of them. If you are not satisifed with the performance (when your device is good), you can make the value at `line 135` larger. This value can be larger than 1, but this value means the proportion of the number of items in $KG_{NN}$ compared to $KG_G$. If the value is 0.2, that means $KG_{NN}$ only contains 20% of the number of items in $KG_G$. Therefore, please don't make it too large since this method includes $O(n^2)$ components.
 
 # Sample outputs
 
