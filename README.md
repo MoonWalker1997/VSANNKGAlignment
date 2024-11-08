@@ -36,8 +36,7 @@ The left image is the average $KGV_{NN}$ (with values $\geq$ 0.5) for all number
 
 The following image is the matching found beween NN-generated concepts and the human-provided one, as well as sample knowledge base.
 
-<img src="https://github.com/user-attachments/assets/7f3f8cc4-4199-4ef7-b422-2c4cf5b44918" height="50%" width="50%">
-<img src="https://github.com/user-attachments/assets/85a9b149-e226-4a0d-a7a8-758494227817" height="50%" width="50%">
+<img src="https://github.com/user-attachments/assets/7f3f8cc4-4199-4ef7-b422-2c4cf5b44918" height="50%" width="50%"><img src="https://github.com/user-attachments/assets/85a9b149-e226-4a0d-a7a8-758494227817" height="50%" width="50%">
 
 ## Experiment 2
 
