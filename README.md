@@ -18,7 +18,7 @@ To change the setting, you need to edit the file from `line 17` to `line 24` by 
 
 For Experimen 3. There are 19 options in a file.
 ```$ python Experiment3.py```
-To change the setting, you need to edit the file from `line 14` to `line 32` by only uncommenting 1 row of them. If you are not satisifed with the performance (when your device is good), you can make the value at `line 135` larger. This value can be larger than 1, but this value means the proportion of the number of items in $KG_{NN}$ compared to $KG_G$. If the value is 0.2, that means $KG_{NN}$ only contains 20% of the number of items in $KG_G$. Therefore, please don't make it too large since this method includes $O(n^2)$ components.
+To change the setting, you need to edit the file from `line 15` to `line 33` by only uncommenting 1 row of them. If you are not satisifed with the performance (when your device is good), you can make the value at `line 135` larger. This value can be larger than 1, but this value means the proportion of the number of items in $KG_{NN}$ compared to $KG_G$. If the value is 0.2, that means $KG_{NN}$ only contains 20% of the number of items in $KG_G$. Therefore, please don't make it too large since this method includes $O(n^2)$ components.
 
 # Sample outputs
 
