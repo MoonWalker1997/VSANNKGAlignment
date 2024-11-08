@@ -48,7 +48,7 @@ The following is the 8 sub-experiments in experiment 2. In which \# $E$ represen
 
 ## Experiment 3
 
-The following is the 19 sub-experiments in experiment 3. In which $p_1, p_2$ are the two evaluations (equation 8 and 9) mentione in the paper. $C$ is the average cosine similarities between matched items in two VSAs (also called "consistency"). $S$ is the average cosine similarities between items in $VSA_{NN}$ (also called "similarities"). $BL$ evaluates the numbers in the vectors that are far from -1 and 1. $\bar{w}$ is the average weight of generated triples that are in the label.
+The following is the 19 sub-experiments in experiment 3. In which $p_1, p_2$ are the two evaluations (equation 8 and 9) mentione in the paper. $C$ is the average cosine similarities between matched items in two VSAs (also called "consistency"). $S$ is the average cosine similarities between items in $VSA_{NN}$ (also called "similarities"). $BL$ evaluates the numbers in the vectors that are far from -1 and 1. $w$ is the average weight of generated triples that are in the label.
 
 <p align="center">
 <img width="564" alt="image" src="https://github.com/user-attachments/assets/d13d7fd1-ec17-405f-8eb2-ac4a4f8ac26c" height="50%" width="50%">
