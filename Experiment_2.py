@@ -12,25 +12,25 @@ from VSASpace import VSASpace, matrix_to_vector
 # ======================================================================================================================
 # pre process
 
-package_file = "/Users/tory/Downloads/Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_1_university_ground_truth.jsonl"  # 0
-# package_file = "/Users/tory/Downloads/Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_2_musicalwork_ground_truth.jsonl"  # 1
-# package_file = "/Users/tory/Downloads/Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_3_airport_ground_truth.jsonl"  # 2
-# package_file = "/Users/tory/Downloads/Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_4_building_ground_truth.jsonl"  # 3
-# package_file = "/Users/tory/Downloads/Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_5_athlete_ground_truth.jsonl"  # 4
-# package_file = "/Users/tory/Downloads/Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_6_politician_ground_truth.jsonl"  # 5
-# package_file = "/Users/tory/Downloads/Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_7_company_ground_truth.jsonl"  # 6
-# package_file = "/Users/tory/Downloads/Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_8_celestialbody_ground_truth.jsonl"  # 7
-# package_file = "/Users/tory/Downloads/Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_9_astronaut_ground_truth.jsonl"  # 8
-# package_file = "/Users/tory/Downloads/Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_10_comicscharacter_ground_truth.jsonl"  # 9
-# package_file = "/Users/tory/Downloads/Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_11_meanoftransportation_ground_truth.jsonl"  # 10
-# package_file = "/Users/tory/Downloads/Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_12_monument_ground_truth.jsonl"  # 11
-# package_file = "/Users/tory/Downloads/Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_13_food_ground_truth.jsonl"  # 12
-# package_file = "/Users/tory/Downloads/Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_14_writtenwork_ground_truth.jsonl"  # 13
-# package_file = "/Users/tory/Downloads/Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_15_sportsteam_ground_truth.jsonl"  # 14
-# package_file = "/Users/tory/Downloads/Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_16_city_ground_truth.jsonl"  # 15
-# package_file = "/Users/tory/Downloads/Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_17_artist_ground_truth.jsonl"  # 16
-# package_file = "/Users/tory/Downloads/Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_18_scientist_ground_truth.jsonl"  # 17
-# package_file = "/Users/tory/Downloads/Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_19_film_ground_truth.jsonl"  # 18
+package_file = "./Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_1_university_ground_truth.jsonl"  # 0
+# package_file = "./Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_2_musicalwork_ground_truth.jsonl"  # 1
+# package_file = "./Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_3_airport_ground_truth.jsonl"  # 2
+# package_file = "./Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_4_building_ground_truth.jsonl"  # 3
+# package_file = "./Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_5_athlete_ground_truth.jsonl"  # 4
+# package_file = "./Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_6_politician_ground_truth.jsonl"  # 5
+# package_file = "./Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_7_company_ground_truth.jsonl"  # 6
+# package_file = "./Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_8_celestialbody_ground_truth.jsonl"  # 7
+# package_file = "./Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_9_astronaut_ground_truth.jsonl"  # 8
+# package_file = "./Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_10_comicscharacter_ground_truth.jsonl"  # 9
+# package_file = "./Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_11_meanoftransportation_ground_truth.jsonl"  # 10
+# package_file = "./Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_12_monument_ground_truth.jsonl"  # 11
+# package_file = "./Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_13_food_ground_truth.jsonl"  # 12
+# package_file = "./Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_14_writtenwork_ground_truth.jsonl"  # 13
+# package_file = "./Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_15_sportsteam_ground_truth.jsonl"  # 14
+# package_file = "./Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_16_city_ground_truth.jsonl"  # 15
+# package_file = "./Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_17_artist_ground_truth.jsonl"  # 16
+# package_file = "./Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_18_scientist_ground_truth.jsonl"  # 17
+# package_file = "./Text2KGBench-main/data/dbpedia_webnlg/ground_truth/ont_19_film_ground_truth.jsonl"  # 18
 
 g_entities = set()
 g_relations = set()
@@ -238,7 +238,6 @@ for ep in range(1, epoch_VSA + 1):
                                                     mapping_i, S, triples,
                                                     True)
 
-            # 第一步，以label triple为准，寻找那些出现在里面的被生成的triple
             tmp = []
             for each in triples:
                 fd = False
@@ -253,8 +252,6 @@ for ep in range(1, epoch_VSA + 1):
             print("Avg tmp:", tmp.mean().item())
             print("Max tmp:", tmp.max().item())
             print("Min tmp:", tmp.min().item())
-            # 找到match triple的最小相似度
-            # 在这里，我们找了多个最小相似度
             min_cos = -1
 
             if len(tmp) == 0:
@@ -267,38 +264,11 @@ for ep in range(1, epoch_VSA + 1):
                     else:
                         min_cos = sorted(set(tmp))[1]
 
-            # min_cos2 = -1
-            # if (tmp != 0).sum() > 1:
-            #     if 0 not in sorted(set(tmp)):
-            #         min_cos2 = sorted(set(tmp))[1]
-            #     else:
-            #         min_cos2 = sorted(set(tmp))[2]
-            # min_cos3 = -1
-            # if (tmp != 0).sum() > 2:
-            #     if 0 not in sorted(set(tmp)):
-            #         min_cos3 = sorted(set(tmp))[2]
-            #     else:
-            #         min_cos3 = sorted(set(tmp))[3]
-
-            # if sum(tmp != 0) != 0:
-            #     TMP = tmp[tmp != 0]
-            #     min_cos = sum(TMP) / len(TMP)
-
-            # p_1_tmp是什么，是检查label以后的每一个label的weight，如果没有就是0，一个很高的平均值说明“label说的triple我都很确信”
             p_1_tmp.append((tmp != 0).sum()/len(tmp))
-            # 如果有min_cos不为0，也就是找到了至少一个match，那么就找到
             if min_cos != -1:
                 p_2_tmp.append(
                     (tmp != 0).sum() / max(0.01, (np.array([each[0] for each in output_triples]) >= min_cos).sum()))
-            # if min_cos2 != -1:
-            #     p_3_tmp.append(
-            #         (tmp != 0).sum() / max(0.01, (np.array([each[0] for each in output_triples]) >= min_cos2).sum()))
-            # if min_cos3 != -1:
-            #     p_4_tmp.append(
-            #         (tmp != 0).sum() / max(0.01, (np.array([each[0] for each in output_triples]) >= min_cos3).sum()))
-
-            # print("test case %i:" % count, (tmp != 0).sum()/len(tmp), (tmp != 0).sum()/(np.array([each[0] for each in output_triples]) >= min_cos).sum())
-
+            
             test_loss += loss.item()
             test_abs_matching += abs_matching.item()
 
