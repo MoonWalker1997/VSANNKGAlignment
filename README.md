@@ -34,10 +34,10 @@ The left image is the average $KGV_{NN}$ (with values $\geq$ 0.5) for all number
 
 <img src="https://github.com/MoonWalker1997/VSANNKGAlignment/assets/55757689/8ba7f4af-cc2d-48cb-8f65-0d34483b6c13" height="50%" width="50%"><img src="https://github.com/MoonWalker1997/VSANNKGAlignment/assets/55757689/b27b591f-5bb9-49d9-962b-834d6cd4fdaf" height="50%" width="50%">
 
-The following image is the matching found beween NN-generated concepts and the human-provided one.
+The following image is the matching found beween NN-generated concepts and the human-provided one, as well as sample knowledge base.
 
-![image](https://github.com/user-attachments/assets/7f3f8cc4-4199-4ef7-b422-2c4cf5b44918)
-![image](https://github.com/user-attachments/assets/85a9b149-e226-4a0d-a7a8-758494227817)
+<img src="https://github.com/user-attachments/assets/7f3f8cc4-4199-4ef7-b422-2c4cf5b44918" height="50%" width="50%">
+<img src="https://github.com/user-attachments/assets/85a9b149-e226-4a0d-a7a8-758494227817" height="50%" width="50%">
 
 ## Experiment 2
 
